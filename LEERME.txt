@@ -1,0 +1,14 @@
+Hola buenas tardes, me quede sin tiempo para terminar el orquestador, por lo que deje mi front conectado directamente a dominio,
+
+en cuanto al front es muy basico y ya no tuve tiempo de implementar el maquetado de Ionic, sin embargo pude aprender un poco del mismo.
+
+El front recibe los datos de la base y los pasa tarjetas las cuales se generan y desplieguan en el carrusel(me hubiera gustado ponerle mas color pero me quede sin tiempo)
+
+el backend de dominio funcionan el crud 100% puede probarlo desde postman, no lo implemente en el front por que no lo solicitaba
+
+adjunto mi script de la base de datos en mySQL para los datos que use y adjunto mi script para el postman
+
+asi mismo adjunto un video explicando el proceso
+
+pude usar git pero ya no pude ir subiendo actualizacion por actualziacion debido a que el servicio de logueo requiere un codigo y me tardaba mucho en enviar el codigo, por suerte el domingo en la noche el servicio de pass para loguearse funciono y pude usar git
+

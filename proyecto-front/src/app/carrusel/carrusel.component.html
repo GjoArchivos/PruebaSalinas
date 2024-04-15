@@ -1,0 +1,29 @@
+
+<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner">
+      <h2>los botones de izquierda y derecha estan tranparentes(tardan en responder)</h2>
+      <h3>una vez que funcina, puedes deslizar a los lados con las teclas de direccion</h3>
+      <div class="carousel-item active" data-bs-interval="1000" *ngFor=" let empleado of empleados">
+        <div  class="carousel-item active" class="card">
+            <div class="card-body">
+              <h5 class="card-title">ID: {{empleado.id}}</h5>
+                <p class="card-text">{{empleado.primerNombre}} </p>
+                <p class="card-text">{{empleado.segundoNombre}} </p>
+                <p class="card-text">{{empleado.apellidoPaterno}} </p>
+                <p class="card-text">{{empleado.apellidoPaterno}} </p>
+                <p class="card-text">{{empleado.sexo}} </p>
+                <p class="card-text">{{empleado.edad}} </p>
+                <p class="card-text">{{empleado.fechaNacimiento}} </p>
+                <p class="card-text">{{empleado.puesto}} </p>    
+          </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev btn btn-sm m-2" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next btn btn-sm m-2" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
